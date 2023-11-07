@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Felhasználónév"
+        android:textSize="25sp"
+        android:id="@+id/mainfelhazsnaloedittext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jelszó"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:id="@+id/mainjelszoedittext"
+        android:layout_below="@+id/mainfelhazsnaloedittext"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bejelentkezés"
+        android:textSize="25sp"
+        android:id="@+id/mainbejelentkezesbutton"
+        android:layout_below="@+id/mainjelszoedittext"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regisztráció"
+        android:textSize="25sp"
+        android:id="@+id/mainregisztraciobutton"
+        android:layout_below="@+id/mainbejelentkezesbutton"
+        />
+
+
+</RelativeLayout>
